@@ -25,14 +25,12 @@ def safecopy(src, dst, symlinks=False, ignore_ptns=[]):
         ignores = shutil.ignore_patterns(*ignore_ptns)
         try:
             shutil.copytree(src, dst, symlinks, ignores)
-        except OSError, IOError:
+        except (OSError, IOError):
             shutil.rmtree(dst, ignore_errors=True)
             raise
     else:
-        try:
-            shutil.copy2(src, dst)
-        except OSError, IOError:
-            raise
+        if not os.path.isdir(dst):
+            makedirs(os.path.dirname(dst))
 
-    return
+        shutil.copy2(src, dst)
 
