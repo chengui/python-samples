@@ -71,23 +71,28 @@ class ColorLogger(logging.Logger):
 
 
 def error(msg):
-    """Logs a message with level ERROR on the colorlog logger"""
+    """ Logs a message with level ERROR on the colorlog logger """
     LOGGER.error(msg)
 
 
 def warning(msg):
-    """Logs a message with level WARNING on the colorlog logger"""
+    """ Logs a message with level WARNING on the colorlog logger """
     LOGGER.warning(msg)
 
 
 def info(msg):
-    """Logs a message with level INFO on the colorlog logger"""
+    """ Logs a message with level INFO on the colorlog logger """
     LOGGER.info(msg)
 
 
 def debug(msg):
-    """Logs a message with level DEBUG on the colorlog logger"""
+    """ Logs a message with level DEBUG on the colorlog logger """
     LOGGER.debug(msg)
+
+
+def setLevel(level):
+    """ Set logger level """
+    LOGGER.setLevel(level)
 
 
 # initialize logger module
