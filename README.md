@@ -1,4 +1,4 @@
-python-snippets
+Amazing python-snippets
 ===============
 
 python snippets
