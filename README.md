@@ -4,5 +4,6 @@ This project is to help someone need some practices when learning python languag
 
 ## Description
 
-- [simple-http](./simple-http)  a simple web server
+- [simple-http](./simple-http)  A simple web server
+- [string-stream](./string-stream)  Redirect stdout/stderr to StringIO
 
