@@ -15,4 +15,5 @@ This project is to help someone need some practices when learning python languag
 - [skin-detect](./skin-detect)  Skin detector to check naked image
 - [safe-shutil](./safe-shutil)  Safe shutil to copy/move/rm files
 - [flask-bench](./flask-bench)  A benchmark to Flask server with different deployment
+- [term-2048](./term-2048)  A terminal based 2048 game
 
