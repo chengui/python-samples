@@ -7,4 +7,5 @@ This project is to help someone need some practices when learning python languag
 - [simple-http](./simple-http)  A simple web server
 - [string-stream](./string-stream)  Redirect stdout/stderr to StringIO
 - [ascii-art](./ascii-art)  Implement simple ascii art render
+- [logger-testing](./logger-testing)  Test some logger implementation
 
