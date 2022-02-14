@@ -13,4 +13,5 @@ This project is to help someone need some practices when learning python languag
 - [demo-filelock](./demo-filelock)  A filelock demo
 - [struct-tree](./struct-tree)  A tree struct demo
 - [skin-detect](./skin-detect)  Skin detector to check naked image
+- [safe-shutil](./safe-shutil)  Safe shutil to copy/move/rm files
 
