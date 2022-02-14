@@ -12,4 +12,5 @@ This project is to help someone need some practices when learning python languag
 - [demo-ngram](./demo-ngram)  A simple language detector using ngram demo
 - [demo-filelock](./demo-filelock)  A filelock demo
 - [struct-tree](./struct-tree)  A tree struct demo
+- [skin-detect](./skin-detect)  Skin detector to check naked image
 
