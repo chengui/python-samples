@@ -9,4 +9,5 @@ This project is to help someone need some practices when learning python languag
 - [ascii-art](./ascii-art)  Implement simple ascii art render
 - [logger-testing](./logger-testing)  Test some logger implementation
 - [term-clock](./term-clock)  A simple terminal clock
+- [demo-ngram](./demo-ngram)  A simple language detector using ngram demo
 
